@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .status {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .task-card {
+    background-color: rgba(255, 255, 255, 0.425);
+    border: 1px solid #109c64;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: move;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .status {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .status:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+  }
+  
+  .task-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: move;
+    transition: transform 0.3s;
+  }
+  
+  .task-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  h2 {
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #444444;
+  }
+  
+  p {
+    color: #666666;
+  }
+    
+  button{
+    color: red;
+    margin-top: 50px;
+  }
+  
+#bpadding1, #bpadding2 ,#bpadding3 {
+  margin-left: 90px;
+  margin-right: 5px;
+}
+/* Form styles */
+form {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333333;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: Arial, sans-serif;
+}
+
+select {
+  appearance: none;
+}
+
+button[type="submit"] {
+  background-color: #109c64;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0d8052;
+}
+
+
+#rahul{
+  /* font-size: xx-larges; */
+  margin-left: 500px;
+  
+}

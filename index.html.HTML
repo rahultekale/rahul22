@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Task Management App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="status" id="todo">
+      <h2>To Do</h2>
+      <button id="bpadding1">REMOVE</button>
+      <button>ADD</button>
+      <div class="task-list" id="task-list-todo">
+        <!-- Task cards for To Do tasks will be added here -->
+      </div>
+    </div>
+    <div class="status" id="doing">
+      <h2>Doing</h2>
+      <h2>To Do</h2>
+      <button id="bpadding2">REMOVE</button>
+      <button>ADD</button>
+      <div class="task-list" id="task-list-doing">
+        <!-- Task cards for Doing tasks will be added here -->
+      </div>
+    </div>
+    <div class="status" id="done">
+      <h2>Done</h2>
+      <h2>To Do</h2>
+      <button id="bpadding3">REMOVE</button>
+      <button>ADD</button>
+      <div class="task-list" id="task-list-done">
+        <!-- Task cards for Done tasks will be added here -->
+      </div>
+    </div>
+  </div>
+  <div class="status" id="todo">
+    <h2>Add Task </h2>
+    <button id="addTodoButton">ADD</button>
+    <button id="removeTodoButton">REMOVE</button>
+    <div class="task-list" id="task-list-todo">
+      <!-- Task cards for To Do tasks will be added here -->
+    </div>
+    
+    <!-- Add a form for creating new tasks -->
+    <form id="taskForm">
+      <label for="titleInput">Title:</label>
+      <input type="text" id="titleInput" required>
+      <label for="descriptionInput">Description:</label>
+      <textarea id="descriptionInput" required></textarea>
+      <label for="statusSelect">Status:</label>
+      <select id="statusSelect">
+        <option value="todo">To Do</option>
+        <option value="doing">Doing</option>
+        <option value="done">Done</option>
+      </select>
+      <button type="submit">Create Task</button>
+    </form>
+  </div>
+  
+  <div class="mn" id="rahul">
+
+  <h1>Removal of tasks </h1>
+  
+  
+  <!-- "To Do" Section -->
+  <div class="status" id="todo">
+    <h2>To Do</h2>
+    <!-- <button id="addTodoButton">ADD</button> -->
+    <button id="removeTodoButton">REMOVE</button>
+    <div class="task-list" id="task-list-todo">
+      <!-- Task cards for To Do tasks will be added here -->
+    </div>
+  </div>
+  
+  <!-- "Doing" Section -->
+  <div class="status" id="doing">
+    <h2>Doing</h2>
+    <!-- <button id="addDoingButton">ADD</button> -->
+    <button id="removeDoingButton">REMOVE</button>
+    <div class="task-list" id="task-list-doing">
+      <!-- Task cards for Doing tasks will be added here -->
+    </div>
+  </div>
+
+  <!-- "Done" Section -->
+  <div class="status" id="done">
+     <h2>Done</h2> 
+    <!-- <button id="addDoneButton">ADD</button> -->
+    <button id="removeDoneButton">REMOVE</button>
+    <div class="task-list" id="task-list-done">
+      <!-- Task cards for Done tasks will be added here -->
+    </div>
+  </div>
+</div>
+  
+  <script src="script.js"></script>
+</body>
+</html lang="en">
